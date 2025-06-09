@@ -1,0 +1,48 @@
+
+public class TerceiraFase extends Interiorano{
+	static int escolhadivulgacao;
+	static int escolhadivulgacao1;
+	static int escolhafinal1;
+	static int escolhafinal2;
+	
+	public static void conversaImpreensa() {
+		System.out.println("Voce precisa de meios para divulgar suas descobertas\n"
+				+ "1. Ir ate ao jornal local e dar todas as provas\n"
+				+ "2. Guarda para si mesmo e usa para chantagear os empresarios locais");
+	}
+	public static void conversaImpreensa1() {
+		System.out.println("Indo ate o jornal, encontra os agentes do governo tentando abafar o caso\n"
+				+ "1. Da suas provas para os jornalistas e acredita que eles vão colocar as provas no jornal\n"
+				+ "2. Começa a divulhar as provas por conta propria utilizando a internet");
+	}
+	public static void conversaImpreensa2() {
+		System.out.println("Os empresarios contratam pessoas para conseguir roubar as provas de voce\n"
+				+ "Voce perdeu\n"
+				+ "Reinicie o jogo\n"
+				+ "-------------------------------------------------------------------------------------");
+	}
+	public static void conversaImpreensa11() {
+		System.out.println("Os jornalistas foram pressionados pelo governo e não puderam divulgar as provas\n"
+				+ "O governo local lhe considera um crimonoso\n"
+				+ "Voce perdeu\n"
+				+ "Reinicie o jogo\n"
+				+ "-------------------------------------------------------------------------------------");
+	}
+	public static void conversaImpreensa12() {
+		System.out.println("");
+	}
+
+	public static void conversaFinal() {
+		System.out.println("Voce demonstrou a toda a população quem causou a poluição e o desmatemento\n"
+				+ "Todos que lhe ajudaram sugeriram que voce iniciasse uma carreira na politica, para poder a nivel nacional\n"
+				+ "1. Aceita a sugestão e ingressar na politica\n"
+				+ "2. Negar a proposta");
+	}	
+	public static void conversaFinal1() {
+		System.out.println("Sua trajetoria se iniciara demonstrando aos demais vereadores, prefeitos e governadores\n"
+				+ " suas estratégias para acabar com tudo que está prejudicando a fauna e a flora do nosso país.");
+	}
+	public static void conversaFinal2() {
+		System.out.println("Voce retorna para sua cidade natal para iniciar novas aventuras e novamente combater a caça ilegal.");
+	}	
+}
