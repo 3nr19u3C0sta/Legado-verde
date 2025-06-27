@@ -1,0 +1,20 @@
+//Encotrei o prefixo sealed para classes
+//sealed faz com que a classe só possa ser extendida por as classes definidas pelo permits, tornando obrigatorio a existencia das classes definidas no permits
+//As classes definidas por permits devem ter o prefixo final, non-sealed ou sealed, mas caso seja sealed precede  a criação de outra classe que a extenda
+
+public sealed class Animal permits Dog, Cat{
+
+}
+
+--------------------------------------------------
+
+public final class Cat extends Animal {
+
+}
+
+--------------------------------------------------
+
+public non-sealed class Dog extends Animal {
+
+}
+
